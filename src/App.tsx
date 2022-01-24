@@ -1,7 +1,19 @@
-import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+import Welcome from './pages/Welcome'
+import Report from './pages/Report'
+import Passenger from './pages/Passenger'
 
 function App () {
-  return <div className="App">Motion Labs Test</div>
+  return (
+    <Router>
+      <Routes>
+        <Route path='/' element={<Welcome />} />
+        <Route path="/report" element={<Report/>} />
+        <Route path="/passenger" element={<Passenger />} />
+      </Routes>
+    </Router>
+  )
 }
 
 export default App
