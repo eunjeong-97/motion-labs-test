@@ -3,12 +3,12 @@ import styled from 'styled-components'
 
 import BarItem from './BarItem'
 
-import { DataItemType, DataListType } from '../../propType'
+import { ReportItemType, ReportListType } from '../../propType'
 
-const BarChart: React.FC<DataListType> = function ({ dataList }) {
+const BarChart: React.FC<ReportListType> = function ({ dataList }) {
   return (
     <BarChartBox>
-      {dataList.map((dataItem: DataItemType, index: number) => {
+      {dataList.map((dataItem: ReportItemType, index: number) => {
         const periodPersent = Math.round((dataItem.period / 15) * 100)
         const month = dataItem.startDate.substring(5, 7)
         const date = dataItem.startDate.substring(8, 10)

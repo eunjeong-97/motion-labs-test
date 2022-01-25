@@ -7,16 +7,15 @@ import ChartInfoItem from '../components/Report/ChartInfoItem'
 import LineChart from '../components/Report/LineChart'
 import BarChart from '../components/Report/BarChart'
 
-import { DataItemType } from '../propType'
+import { ReportItemType } from '../propType'
 
 const report: string = process.env.REACT_APP_REPORT as string
 
 function Report () {
-  const [dataList, setDataList] = useState<DataItemType[]>([])
+  const [dataList, setDataList] = useState<ReportItemType[]>([])
+
   const fetchData = () => {
-    axios.get(report).then(response => {
-      setDataList(response.data.data)
-    })
+    axios.get(report).then(response => setDataList(response.data.data))
   }
 
   useEffect(fetchData, [])

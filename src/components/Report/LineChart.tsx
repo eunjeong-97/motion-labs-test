@@ -3,14 +3,14 @@ import styled from 'styled-components'
 
 import Svg from './Svg'
 
-import { DataListType } from '../../propType'
+import { ReportListType } from '../../propType'
 
 type CycleBoxType = {
   top: number
   left: number
 }
 
-const LineChart: React.FC<DataListType> = function ({ dataList }) {
+const LineChart: React.FC<ReportListType> = function ({ dataList }) {
   return (
     <LineChartBox>
       <Svg dataList={dataList} />

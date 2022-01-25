@@ -1,29 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { DataListType } from '../../propType'
+import { ReportListType } from '../../propType'
 
-const Svg: React.FC<DataListType> = function ({ dataList }) {
+const Svg: React.FC<ReportListType> = function ({ dataList }) {
   const cycleArray: number[] = []
   dataList.map(dataItem => {
     cycleArray.push(dataItem.cycle)
     return cycleArray
   })
-  console.log(cycleArray)
   return (
     <SvgBox>
       {dataList.map((dataItem, index) => {
         const left = 80 + 93 * index
         const nextLeft = 80 + 93 * (index + 1)
         const top = 160 - dataItem.cycle
-        console.log(160 - cycleArray[index + 1])
+        const nextTop = 160 - cycleArray[index + 1]
         return (
           <Line
             key={index}
             x1={left + 13}
             x2={nextLeft + 11}
             y1={top}
-            y2={160 - cycleArray[index + 1]}
+            y2={!isNaN(nextTop) ? nextTop : 0}
           />
         )
       })}

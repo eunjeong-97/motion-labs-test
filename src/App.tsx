@@ -24,7 +24,7 @@ function App () {
   )
 }
 
-const BodyBox = styled.body`
+const BodyBox = styled.div`
   width: 100%;
   height: 100%;
   background-color: #f1f3f9;
