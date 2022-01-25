@@ -3,23 +3,14 @@ import styled from 'styled-components'
 
 import Svg from './Svg'
 
-type DataItemType = {
-  startDate: string
-  endDate: string
-  period: number
-  cycle: number
-}
-
-type PropType = {
-  dataList: DataItemType[]
-}
+import { DataListType } from '../../propType'
 
 type CycleBoxType = {
   top: number
   left: number
 }
 
-const LineChart: React.FC<PropType> = function ({ dataList }) {
+const LineChart: React.FC<DataListType> = function ({ dataList }) {
   return (
     <LineChartBox>
       <Svg dataList={dataList} />

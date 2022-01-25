@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
 
-import Title from '../components/Title'
+import Title from '../components/common/Title'
 
 const passenger: string = process.env.REACT_APP_PASSENGER as string
 

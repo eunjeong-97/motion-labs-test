@@ -3,17 +3,9 @@ import styled from 'styled-components'
 
 import BarItem from './BarItem'
 
-type DataItemType = {
-  startDate: string
-  endDate: string
-  period: number
-  cycle: number
-}
-type PropType = {
-  dataList: DataItemType[]
-}
+import { DataItemType, DataListType } from '../../propType'
 
-const BarChart: React.FC<PropType> = function ({ dataList }) {
+const BarChart: React.FC<DataListType> = function ({ dataList }) {
   return (
     <BarChartBox>
       {dataList.map((dataItem: DataItemType, index: number) => {

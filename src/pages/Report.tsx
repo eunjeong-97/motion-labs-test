@@ -2,19 +2,14 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
 
-import Title from '../components/Title'
-import ChartInfoItem from '../components/ChartInfoItem'
-import LineChart from '../components/LineChart'
-import BarChart from '../components/BarChart'
+import Title from '../components/common/Title'
+import ChartInfoItem from '../components/Report/ChartInfoItem'
+import LineChart from '../components/Report/LineChart'
+import BarChart from '../components/Report/BarChart'
+
+import { DataItemType } from '../propType'
 
 const report: string = process.env.REACT_APP_REPORT as string
-
-type DataItemType = {
-  startDate: string
-  endDate: string
-  period: number
-  cycle: number
-}
 
 function Report () {
   const [dataList, setDataList] = useState<DataItemType[]>([])

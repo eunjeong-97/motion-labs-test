@@ -1,18 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-type DataItemType = {
-  startDate: string
-  endDate: string
-  period: number
-  cycle: number
-}
+import { DataListType } from '../../propType'
 
-type PropType = {
-  dataList: DataItemType[]
-}
-
-const Svg: React.FC<PropType> = function ({ dataList }) {
+const Svg: React.FC<DataListType> = function ({ dataList }) {
   const cycleArray: number[] = []
   dataList.map(dataItem => {
     cycleArray.push(dataItem.cycle)

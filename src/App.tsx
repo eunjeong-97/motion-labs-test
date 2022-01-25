@@ -5,7 +5,7 @@ import Report from './pages/Report'
 import Passenger from './pages/Passenger'
 import styled from 'styled-components'
 
-import Header from './components/Header'
+import Header from './components/common/Header'
 
 function App () {
   return (

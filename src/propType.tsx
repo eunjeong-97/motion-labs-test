@@ -1,7 +1,10 @@
-export type StringPropType = {
-  [key: string]: string
+export type DataItemType = {
+  startDate: string
+  endDate: string
+  period: number
+  cycle: number
 }
 
-export type NumberPropType = {
-  [key: string]: number
+export type DataListType = {
+  dataList: DataItemType[]
 }

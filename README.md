@@ -7,3 +7,13 @@
 - [svg로 차트만들기](https://dev.to/edbentley/build-your-react-charts-without-a-library-35o8)
 - [svg 다루기](https://www.inflearn.com/course/mastering-svg/#curriculum)
 - [TypeScript Props 전달](https://react.vlpt.us/using-typescript/02-ts-react-basic.html)
+
+## 정리할 내용
+
+- TypeScript 기반의 ReactJS 초기세팅
+- env 세팅 : Type지정
+- TypeScript ReactJS props 전달
+
+## 추가기능구현
+
+- Report 페이지의 datalist -> 리덕스로 상태관리
