@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import styled from 'styled-components'
 
+import Header from './components/Header'
 import Welcome from './pages/Welcome'
 import Report from './pages/Report'
 import Passenger from './pages/Passenger'
-import styled from 'styled-components'
-
-import Header from './components/common/Header'
 
 function App () {
   return (

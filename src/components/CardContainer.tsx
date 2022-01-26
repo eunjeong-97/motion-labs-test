@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { PassengerItemType } from '../../propType'
+import { PassengerItemType } from '../propType'
 
 type CardPropType = {
   data: PassengerItemType

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import Svg from './Svg'
 
-import { ReportListType } from '../../propType'
+import { ReportListType } from '../propType'
 
 type CycleBoxType = {
   top: number

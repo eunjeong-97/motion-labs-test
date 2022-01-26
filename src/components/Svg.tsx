@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { ReportListType } from '../../propType'
+import { ReportListType } from '../propType'
 
 const Svg: React.FC<ReportListType> = function ({ dataList }) {
   const cycleArray: number[] = []

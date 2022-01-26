@@ -7,6 +7,10 @@
 - [svg로 차트만들기](https://dev.to/edbentley/build-your-react-charts-without-a-library-35o8)
 - [svg 다루기](https://www.inflearn.com/course/mastering-svg/#curriculum)
 - [TypeScript Props 전달](https://react.vlpt.us/using-typescript/02-ts-react-basic.html)
+- [TypeScript기반 ReactJS](https://velog.io/@dosilv/TypeScript-React%EC%97%90%EC%84%9C-TypeScript-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0#-no-overload-matches-this-call)
+- [ReactJS 스크롤 위치얻기](https://stackoverflow.com/questions/53158796/get-scroll-position-with-reactjs)
+- [ReactJS에서 뷰포트 / 창 높이 가져 오기](http://daplus.net/javascript-reactjs%EC%97%90%EC%84%9C-%EB%B7%B0%ED%8F%AC%ED%8A%B8-%EC%B0%BD-%EB%86%92%EC%9D%B4-%EA%B0%80%EC%A0%B8-%EC%98%A4%EA%B8%B0/)
+- [scrollHeight, clientHeight, offsetHeight 의 차이](https://blogpack.tistory.com/706)
 
 ## 정리할 내용
 

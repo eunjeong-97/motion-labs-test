@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
 
-import Title from '../components/common/Title'
-import ChartInfoItem from '../components/Report/ChartInfoItem'
-import LineChart from '../components/Report/LineChart'
-import BarChart from '../components/Report/BarChart'
+import Title from '../components/Title'
+import ChartInfoItem from '../components/ChartInfoItem'
+import LineChart from '../components/LineChart'
+import BarChart from '../components/BarChart'
 
 import { ReportItemType } from '../propType'
 

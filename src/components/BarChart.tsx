@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import BarItem from './BarItem'
 
-import { ReportItemType, ReportListType } from '../../propType'
+import { ReportItemType, ReportListType } from '../propType'
 
 const BarChart: React.FC<ReportListType> = function ({ dataList }) {
   return (
