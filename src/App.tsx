@@ -10,7 +10,7 @@ function App () {
   return (
     <BodyBox>
       <PageBox>
-        <Router>
+        <Router basename="/motion-labs-test">
           <Header />
           <Routes>
             <Route path="/" element={<Welcome />} />
