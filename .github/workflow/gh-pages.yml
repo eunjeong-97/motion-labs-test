@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-name: github pages
-=======
 name: motion labs test
->>>>>>> main
 
 on:
   push:
